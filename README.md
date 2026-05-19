@@ -23,6 +23,16 @@ Complementary resources:
 
 **It is very recommended that you read through this README if you want to run this program on your own machine. Click [here](#getting-started) to jump to Getting Started**
 
+## Project Status and Contributions
+
+**Important:** This repository is currently a **Proof of Concept (PoC)**. While the tool is functional for demonstration and academic purposes, the codebase is experimental and not structured for long-term maintenance or easy contribution.
+
+- **No Contributions Accepted:** I am **not accepting pull requests** or feature additions at this time.
+- **Code Quality Warning:** The current code is complex and messy. I do not recommend using this repository as a reference for best practices or attempting to dig deeply into the implementation details.
+- **Future Roadmap:** I am actively researching to refactor this project into separate, more coherent repositories. The goal is to achieve better results of this proof of concept in a much more robust, modular, and maintainable way.
+
+If you are interested in the methodology or results, please refer to the [academic report](https://drive.google.com/file/d/1CmP-sYHWvxN3JxYA_rR2S4tW9YdQcVjg/view?usp=sharing) or my [blog post](https://yuk068.github.io/2026/02/20/traffilclab-3d-overview). Please stay tuned for updates on the upcoming modular releases.
+
 ```
 TrafficLab-3D/
 ├── location/
@@ -161,6 +171,6 @@ If you do want to configure your own model and adjust kinematics, you will have 
 - v1.0: Initial release.
 - v1.1: Refactored codebase and bug fixes.
 
-### Long-term Vision
+## Long-term Vision
 
 I wish to scale this idea to be city-wide, with automatic calibration + continuous detector & tracker improvement. Eventually being sufficient for high-fidelity downstream tasks such as simulation, digital twin, natural language query, reinforcement learning, etc...
