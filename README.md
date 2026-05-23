@@ -23,15 +23,17 @@ Complementary resources:
 
 **It is very recommended that you read through this README if you want to run this program on your own machine. Click [here](#getting-started) to jump to Getting Started**
 
-## Project Status and Contributions
+## Project Status and Future Direction
 
-**Important:** This repository is currently a **Proof of Concept (PoC)**. While the tool is functional for demonstration and academic purposes, the codebase is experimental and not structured for long-term maintenance or easy contribution.
+**Important:** This repository represents the initial **Proof of Concept (PoC)** for TrafficLab 3D. While the tool is functional for academic and demonstration purposes, the current codebase is an experimental, monolithic prototype.
+Instead of archiving this repository to focus on a rewrite, I am keeping development open to anyone who shares the vision of scaling this framework. The immediate goal is refactoring the project into a modular architecture, and improving it especially with what I was able to learn from this PoC. Please contact me first if you are interested in developing this vision with me!
 
-- **No Contributions Accepted:** I am **not accepting pull requests** or feature additions at this time.
-- **Code Quality Warning:** The current code is complex and messy. I do not recommend using this repository as a reference for best practices or attempting to dig deeply into the implementation details.
-- **Future Roadmap:** I am actively researching to refactor this project into separate, more coherent repositories. The goal is to achieve better results of this proof of concept in a much more robust, modular, and maintainable way.
+## Contributions and Collaboration
 
-If you are interested in the methodology or results, please refer to the [academic report](https://drive.google.com/file/d/1CmP-sYHWvxN3JxYA_rR2S4tW9YdQcVjg/view?usp=sharing) or my [blog post](https://yuk068.github.io/2026/02/20/traffilclab-3d-overview). Please stay tuned for updates on the upcoming modular releases.
+If you want to help transition this project to a maintainable ecosystem, contributions are welcome:
+ * **Architecture:** Advice on structural decoupling and data schemas is encouraged via GitHub Issues.
+ * **Code:** Before submitting a Pull Request, please open an Issue to describe the optimization or refactoring step so we can align on the direction.
+ * **Methodology:** To understand the underlying theory first, please refer to the academic report or the blog post.
 
 ```
 TrafficLab-3D/
@@ -53,7 +55,7 @@ TrafficLab-3D/
 │
 ├── media/                               (resources for README and Introduction tab)
 │
-├── gui/                                 (GUI implementation)
+├── trafficlab/                                 (main codebase)
 │
 ├── models/                              (object detection & tracker models)
 │   └── *.pt                             (YOLO checkpoints)
